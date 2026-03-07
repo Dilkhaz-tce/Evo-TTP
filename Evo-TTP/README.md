@@ -214,5 +214,5 @@ If you use Evo-TTP in your research, please cite:
 
 ## Contact
 
-- Email: mohammed@uma.ac.ir
+- Email: dilkhaz.mohammed@uma.ac.ir
 - GitHub Issues: https://github.com/Evo-TTP/Evo-TTP/issues
