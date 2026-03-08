@@ -1,0 +1,52 @@
+# Evo-TTP Requirements
+# For reproducing the experiments in the paper
+
+# Core Dependencies
+# =================
+python>=3.11
+torch>=2.4.0
+numpy>=1.24.0
+
+# Big Data & Graph Processing
+# ===========================
+networkx>=3.2
+stix2>=3.0.0
+
+# NLP & Embeddings
+# ================
+sentence-transformers>=2.7.0
+scikit-learn>=1.4.0
+
+# LLM Training (Unsloth)
+# ======================
+unsloth>=2025.3.0
+transformers>=4.40.0
+trl>=0.8.0
+peft>=0.10.0
+
+# Utilities
+# ========
+tqdm>=4.66.0
+pyyaml>=6.0
+pandas>=2.2.0
+
+# Development & Testing
+# =====================
+pytest>=8.0.0
+black>=24.0.0
+flake8>=7.0.0
+
+# Optional: GPU Utilities
+# =====================
+# NVIDIA Apex (for FP16 training)
+# nvidia-apex
+
+# Optional: Monitoring
+# ===================
+wandb>=0.16.0
+
+# Hardware Requirements
+# =====================
+# Minimum: 24GB GPU VRAM (for 8B model with 4-bit quantization)
+# Recommended: 80GB GPU VRAM (for full training)
+# CUDA 12.4+
