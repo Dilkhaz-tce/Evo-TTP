@@ -1,0 +1,31 @@
+Here's a summary:
+
+Repository Structure
+Evo-TTP/
+├── LICENSE                          # MIT License
+├── README.md                        # Comprehensive documentation
+├── requirements.txt                 # Python dependencies
+├── evo_ttp_main.py                 # Main pipeline orchestrator
+├── config/
+│   └── settings.py                 # Configuration management
+├── src/
+│   ├── __init__.py                 # Package initialization
+│   ├── mining/
+│   │   └── stix_miner.py          # Phase 1: Semantic Mining
+│   ├── synthesis/
+│   │   └── teacher.py              # Phase 2: Synthetic Data Generation
+│   ├── training/
+│   │   └── grpo_trainer.py         # Phase 3: Adversarial GRPO Training
+│   └── evaluation/
+│       └── evaluate.py              # Evaluation metrics
+└── scripts/
+    └── run_evaluation.py           # Evaluation script
+
+Key Features Implemented
+1.Main Pipeline (evo_ttp_main.py): Complete three-phase pipeline orchestrator
+2.Phase 1 - Semantic Mining: STIX-Miner for parsing MITRE ATT&CK and detecting structural holes
+3.Phase 2 - Synthesis: Teacher-student architecture for synthetic TTP generation
+4.Phase 3 - Training: Adversarial GRPO training with robustness constraints
+5.Evaluation: Comprehensive metrics (novelty, feasibility, impact, robustness)
+6.Configuration: All hyperparameters documented and configurable
+7.Documentation: Complete README with usage instructions
