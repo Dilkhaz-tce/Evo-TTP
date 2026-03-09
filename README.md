@@ -163,11 +163,11 @@ Evo-TTP/
 
 | Metric | Base Model | Standard SFT | Evo-TTP (Ours) |
 |--------|-----------|--------------|-----------------|
-| Novelty Score | 0.42 | 0.35 | **0.81** |
+| Novelty Score | 0.42 | 0.35 | 0.81 |
 | Feasibility Score | 0.60 | 0.78 | 0.72 |
-| Impact Score | 0.45 | 0.55 | **0.79** |
-| Aggregate Utility | 0.48 | 0.54 | **0.77** |
-| Robustness (ASR) | N/A | 54.30% | **22.10%** |
+| Impact Score | 0.45 | 0.55 | 0.79 |
+| Aggregate Utility | 0.48 | 0.54 | 0.77 |
+| Robustness (ASR) | N/A | 54.30% | 22.10% |
 
 ## Evaluation
 
