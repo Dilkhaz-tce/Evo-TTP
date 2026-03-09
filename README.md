@@ -184,7 +184,7 @@ python scripts/run_evaluation.py \
 
 This implementation ensures reproducibility through:
 
-1. Exact Data Version: MITRE CTI commit hash (a28c3d8, January 2025)
+1. Exact Data Version: MITRE CTI commit hash (c3fd871e6cc13332dfad44e1540f4547255bf32d, October 28, 2025)
 2. Random Seeds: All random seeds set to 42
 3. Deterministic Settings: CUDA deterministic algorithms enabled
 4. Complete Hyperparameter Documentation**: All settings in config/
